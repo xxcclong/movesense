@@ -15,10 +15,13 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from .views import get_sensor_data
+from .views import get_sensor_data,fightj,right,left
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^upload/',get_sensor_data),
+    url(r'^fight/',fightj),
+    url(r'^left/', left),
+    url(r'^right/', right),
     url(r'^upload_g/',get_sensor_data)
 ]
