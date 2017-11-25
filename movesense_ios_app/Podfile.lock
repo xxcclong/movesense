@@ -1,0 +1,41 @@
+PODS:
+  - Movesense (1.0.0)
+  - PromiseKit (4.1.7):
+    - PromiseKit/Foundation (= 4.1.7)
+    - PromiseKit/QuartzCore (= 4.1.7)
+    - PromiseKit/UIKit (= 4.1.7)
+  - PromiseKit/CorePromise (4.1.7)
+  - PromiseKit/Foundation (4.1.7):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.1.7):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.1.7):
+    - PromiseKit/CorePromise
+  - SwiftyJSON (3.1.4)
+  - Toast-Swift (2.0.0)
+
+DEPENDENCIES:
+  - Movesense (from `ssh://git@altssh.bitbucket.org:443/suunto/movesense-mobile-lib.git`, branch `master`)
+  - PromiseKit (~> 4.1)
+  - SwiftyJSON
+  - Toast-Swift (~> 2.0.0)
+
+EXTERNAL SOURCES:
+  Movesense:
+    :branch: master
+    :git: ssh://git@altssh.bitbucket.org:443/suunto/movesense-mobile-lib.git
+
+CHECKOUT OPTIONS:
+  Movesense:
+    :commit: 2fd9931549778d0e2409e3bd7cfa296cadfdd7c7
+    :git: ssh://git@altssh.bitbucket.org:443/suunto/movesense-mobile-lib.git
+
+SPEC CHECKSUMS:
+  Movesense: b44153240b2b08d2eb67c3c86cbd3cd7c61eca6f
+  PromiseKit: 779f2e41faf62d854e7593026ddbcb0bb5c5002d
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
+
+PODFILE CHECKSUM: a044e740c8407e8174b060392af297ef625f12cd
+
+COCOAPODS: 1.2.0
