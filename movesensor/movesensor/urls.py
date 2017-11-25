@@ -19,5 +19,6 @@ from .views import get_sensor_data
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^upload/',get_sensor_data)
+    url(r'^upload/',get_sensor_data),
+    url(r'^upload_g/',get_sensor_data)
 ]
